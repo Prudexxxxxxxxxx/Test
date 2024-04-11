@@ -1,0 +1,157 @@
+*{   -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+body{
+    outline:2px solid #ce5ca2;
+    position: relative;
+    margin:  50px  10%;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+span{
+    display: block;
+    font-family: wingdings; 
+    font-size: 200px;
+    color:green;
+    text-align: center
+}
+
+.glavn {
+border: 1px solid #ce5ca2;
+max-height:400px ;
+
+}
+
+.vopros{
+display: flex;
+overflow: hidden;
+}
+
+.vopr{
+    height: 40px;
+    width: 10%;
+}
+
+.vopros button.active {
+    background-color: #ce5ca2;
+}
+.var{
+    display: none;
+}
+
+#btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    width: 100% ;
+    color: rgb(80, 80, 185);  
+    background-color:  #a0cff0;  
+    height: 40px;
+}
+button{
+    border: 1px solid #c07197;
+}
+
+hr{
+    margin: 0 0;
+    height:2px; border: none;
+    color: #c07197;
+    background-color:  #c07197;
+}
+p{
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+            
+.qwer{
+    background-color: ;
+    margin: 0 0;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(80, 80, 185);
+    background-color:  #eaeaea;
+}
+
+.input{
+    margin: 0px 0px;
+    font-size: 18px;
+    color: green;
+    background-color:  #eaeaea;
+}
+.verno2{
+    font-size: 28px;
+    color: #aaa; 
+    text-align: center;
+    background-color:  green;
+    width: 100%;
+    
+
+}
+.value2{
+    
+    margin: 30px ;
+}
+.vern{
+    font-size: 28px;
+    color: green; 
+    text-align: center;
+    background-color:  
+    }
+
+.boxx{
+    font-size: 28px;
+    color: #aaa; 
+    text-align: center;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+}
+
+#close1{
+    position: relative;
+    float: right;
+    padding-right: 5px;
+}
+
+#resultFild1{
+    margin: 0 0;
+    padding: 0 0;
+    border: 5px solid green ;
+    width: 50%;
+    height: 50%;
+    background-color: #fefefe;
+    overflow: auto;
+    left: 20%;
+    top: 25%;
+    position: fixed;
+    display: none;
+    z-index: 99;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+#resultFild{
+    width: 60%;
+    background-color: #fefefe;
+    overflow: auto;
+    left: 20%;
+    top: 25%;
+    border: 1px solid #000;
+    position: fixed;
+    display: none;
+    z-index: 999;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+@keyframes animatetop {
+    from {top: -400px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
